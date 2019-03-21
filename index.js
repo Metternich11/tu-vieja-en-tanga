@@ -34,8 +34,21 @@
 // changes to your forked repo and submit a pull request.
 // Alternatively send an email with your solution to tuvieja@entanga.com.ar
 
-function PatternChaser(str)  {
-  // your code here
+function PatternChaser(str) {
+  var len = str.length;
+  var halfLen = Math.floor(str.length / 2);
+
+  for (var i = halfLen; i > 1; i--) {
+      for(var j = 0; j <= len - i; j++) {
+          var txt = str.substr(j, i);
+          var regTxt = new RegExp(txt, 'g');
+          var testMatch = str.match(regTxt);
+          if (testMatch.length > 1) {
+              return 'yes ' + txt;
+          }
+      }
+  }
+  return 'no ' + null;
 }
 
 module.exports = PatternChaser;
