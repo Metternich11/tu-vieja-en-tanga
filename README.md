@@ -1,4 +1,4 @@
-# Algorithm challenge // Palindrome Swapper
+# Algorithm challenge // Pattern Chaser
 
 - [1. Getting started](https://github.com/rodalcala/tu-vieja-en-tanga#1-getting-started)
 - [2. Challenge](https://github.com/rodalcala/tu-vieja-en-tanga#2-challenge)
