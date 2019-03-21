@@ -1,0 +1,26 @@
+{
+  "name": "tu-vieja-en-tanga",
+  "version": "1.0.0",
+  "description": "Tu vieja en tanga presentaaaaaaaaaa... PATTERN CHASER. Porque siempre es lindo sentirte inteligente frente a tus amigos resolviendo problemas que en tu puta vida vas a aplicar!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodalcala/tu-vieja-en-tanga.git"
+  },
+  "keywords": [
+    "tuviejaentanga"
+  ],
+  "author": "TuViejaEnTanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodalcala/tu-vieja-en-tanga/issues"
+  },
+  "homepage": "https://github.com/rodalcala/tu-vieja-en-tanga#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
